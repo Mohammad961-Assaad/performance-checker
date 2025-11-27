@@ -147,7 +147,6 @@ class _PerformanceCheckerPageState extends State<PerformanceCheckerPage> {
   }
 }
 
-// Custom TextField widget (similar to your slides' custom widget example)
 class MyTextField extends StatelessWidget {
   final String label;
   final TextEditingController controller;
