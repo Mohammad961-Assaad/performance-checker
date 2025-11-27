@@ -146,7 +146,7 @@ class _PerformanceCheckerPageState extends State<PerformanceCheckerPage> {
     );
   }
 }
-
+// own reusable TextField widget instead of writing the same code many times.
 class MyTextField extends StatelessWidget {
   final String label;
   final TextEditingController controller;
